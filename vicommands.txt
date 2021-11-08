@@ -1,0 +1,25 @@
+              VI COMMANDS
+1.i=insert at cursor(goes into insert mode)
+2.esc=terminate insert mode
+3.3dd=delete 3lines
+4.D=delete contents of liner after thr cursor
+5.C=delete contents of ;line after the cursor and it will insert new text.press  esc key to end the insertion
+6.dw=delete word
+6.4dw=delete 4words
+7.cw=change word
+8.x=delete character at the cursor
+9.r=replace character
+10.shift+zz=save the file and quit
+11.:w=save the file content but it will be still open 
+12.:q= it will quit without saving
+13.:wq=it will basically sav ethe file and quit
+14./word=to search
+15.u=undo the last change
+16.U=undo all changes to the entire line
+17.o=open a new file
+18.esc+:+w+q=to save your file contents and to exit
+19.esc+:+q+enter=u bwanted to quit without saving
+20.c+.+q+!+enter=to write something 
+21.esc=insert mode to command mode
+22.i=command mode to insert mode
+23.vi filename=this command is used to enter into vi prompt
